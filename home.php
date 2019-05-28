@@ -9,9 +9,20 @@
 </head>
 <body>
 
-<?php
-include 'blackjack.php';
+<form action="game.php" method="post">
+  <input type="submit" name="submitGame" value="Play Blackjack"/>
+</form>
+<form action="game.php" method="post">
+  <input type="submit" name="submitHit" value="Hit"/>
+</form>
+<form action="game.php" method="post">
+  <input type="submit" name="submitStand" value="Stand"/>
+</form>
+<form action="game.php" method="post">
+  <input type="submit" name="submitSurrender" value="Surrender"/>
+</form>
 
-?>
+
+
 
 </body>
